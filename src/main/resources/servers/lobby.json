@@ -1,0 +1,33 @@
+{
+    "server":"Lobby",
+    "interval":30,
+    "messages": [
+
+        [
+            "",
+            {
+                "text":"\n"
+            },
+            {
+                "text":"This is a auto announcement!\nClick ",
+                "color":"yellow"
+            },
+            {
+                "text":"here",
+                "color":"aqua",
+                "clickEvent":{
+                    "action":"open_url",
+                    "value":"https://github.com/SrBlecaute01/BungeeAnnouncements"
+                }
+            },
+            {
+                "text":" to go to repository.",
+                "color":"yellow"
+            },
+            {
+                "text":"\n "
+            }
+        ]
+
+    ]
+}
