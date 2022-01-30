@@ -16,7 +16,7 @@ public class AnnouncementTask implements Runnable {
     private final AnnouncementDao announcementDao = AnnouncementDao.getInstance();
 
     private final int gcd;
-    private int index = 0;
+    private int index = 1;
 
     /**
      * Start interval at the longest interval possible
@@ -38,7 +38,7 @@ public class AnnouncementTask implements Runnable {
 
         try {
             announcementDao.getValues().stream()
-                    .filter(announcement -> (announcement.getInterval() / gcd) % index == 0)
+                    .filter(announcement -> index % (announcement.getInterval() / gcd) == 0)
                     .forEach(announcement -> {
                         BaseComponent[] components = announcement.getNextComponent();
                         announcement.getServerPlayers().forEach(player ->
