@@ -1,16 +1,15 @@
 <h1 align='center'>BungeeAnnouncements</h1>
-<p align='center'>
-  Send automatic json messages to players on your server.
-</p>
+<p align='center'>Send automatic json messages to players on your server.</p>
 
 ## Requiriments
 
 -  Java 8 or later.
 -  Bungeecord.
 
-## Download
-
+## Download 
 Clique [here](https://github.com/SrBlecaute01/BungeeAnnouncements/releases/latest) to download the plugin.
+
+![Downloads](https://img.shields.io/github/downloads/SrBlecaute01/BungeeAnnouncements/total?color=lime_green)
 
 ## How to use 
 
