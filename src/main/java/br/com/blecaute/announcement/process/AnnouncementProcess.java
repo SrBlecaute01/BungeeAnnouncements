@@ -26,6 +26,7 @@ public class AnnouncementProcess {
             AnnouncementDao.getInstance().add(announcement);
         }
 
+        plugin.getLogger().info("Loaded " + AnnouncementDao.getInstance().size() + " files.");
     }
 
 }
